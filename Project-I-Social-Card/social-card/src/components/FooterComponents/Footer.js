@@ -12,16 +12,4 @@ const Footer = () => {
     )
 }
 
-const footerButtons = document.querySelectorAll(".footerItem");
-console.log(footerButtons);
-
-
-// console.log(footerButtons[0]);
-// const footerButtonsArray = Array.from(footerButtons);
-
-// console.log(footerButtonsArray);
-// footerButtons[2].addEventListener('click', () => {
-//     footerButtons[0].classList.add("comment")
-// })
-
 export default Footer
