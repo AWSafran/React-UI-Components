@@ -2,11 +2,13 @@
 .cardContainer{
     width: 100%;
     padding-top: 20px;
+    margin-top: 20px;
 }
 
 .cardContainer img{
     width: 90%;
     margin-left: 80px;
+    margin-top: 20px;
 }
 
 .cardContainer p{
