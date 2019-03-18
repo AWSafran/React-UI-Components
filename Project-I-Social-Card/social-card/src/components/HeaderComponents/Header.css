@@ -1,1 +1,23 @@
 /* All styles for your header Components live here */
+
+.headerContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 1px solid silver;
+}
+
+.headerContainer img{
+    width: 5%;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.headerContainer div{
+    width: 90%;
+}
+
+.headerContainer span{
+    font-weight: normal;
+    font-size: 18px;
+}
