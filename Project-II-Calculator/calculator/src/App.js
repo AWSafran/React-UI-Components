@@ -3,6 +3,7 @@ import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import OperatorButton from './components/ButtonComponents/OperatorButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const numbers = [
   {text: 7, buttonStyle: "numberButton"},
@@ -18,7 +19,8 @@ const numbers = [
 
 const App = () => {
   return (
-    <div>
+    <div className = "calcContainer">
+      <CalculatorDisplay />
       <div className="whiteButtons">
         <ActionButton 
           className = {"clearButton"}
