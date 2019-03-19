@@ -3,6 +3,8 @@
     text-align: center;
     border-top: 2px solid gray;
     border-left: 2px solid gray;
+    font-size: 52px;
+    padding-top: 10px;
 }
 
 div{
@@ -13,13 +15,19 @@ div{
 }
 
 .numberButton{
-    width: 32.65%;
+    width: 33.333333333%;
     border-top: 2px solid gray;
     border-left: 2px solid gray;
+    font-size: 52px;
+    padding-top: 10px;
 }
 
 .operatorButton{
     border-top: 2px solid gray;
     border-left: 2px solid gray;
-    width: 100%
+    width: 100%;
+    font-size: 52px;
+    padding-top: 10px;
+    background: darkred;
+    color: white;
 }
