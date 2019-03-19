@@ -21,42 +21,50 @@ const App = () => {
   return (
     <div className = "calcContainer">
       <CalculatorDisplay />
-      <div className="whiteButtons">
-        <ActionButton 
-          className = {"clearButton"}
-          text = {"clear"} 
-        />
-        <div className="numbers">
-          {numbers.map(number => (
-            <NumberButton number={number} />
-          ))}
+      <div className = "buttonInterface">
+        <div className="whiteButtons">
+
+          <ActionButton 
+            className = {"clearButton"}
+            text = {"clear"} 
+          />
+
+          <div className="numbers">
+            {numbers.map(number => (
+              <NumberButton number={number} />
+            ))}
+          </div>
+
+          <ActionButton 
+            className = {"zeroButton"}
+            text = {"0"} 
+          />
+
         </div>
-        <ActionButton 
-          className = {"zeroButton"}
-          text = {"0"} 
-        />
-      </div>
-      <div className = "redButtons">
-          <OperatorButton
-            buttonStyle = {"operatorButton"}
-            text = {"/"} 
-          />
-          <OperatorButton
-            buttonStyle = {"operatorButton"}
-            text = {"*"} 
-          />
-          <OperatorButton
-            buttonStyle = {"operatorButton"}
-            text = {"-"} 
-          />
-          <OperatorButton
-            buttonStyle = {"operatorButton"}
-            text = {"+"} 
-          />
-          <OperatorButton
-            buttonStyle = {"operatorButton"}
-            text = {"="} 
-          />
+
+        <div className = "redButtons">
+            <OperatorButton
+              buttonStyle = {"operatorButton"}
+              text = {"/"} 
+            />
+            <OperatorButton
+              buttonStyle = {"operatorButton"}
+              text = {"*"} 
+            />
+            <OperatorButton
+              buttonStyle = {"operatorButton"}
+              text = {"-"} 
+            />
+            <OperatorButton
+              buttonStyle = {"operatorButton"}
+              text = {"+"} 
+            />
+            <OperatorButton
+              buttonStyle = {"operatorButton"}
+              text = {"="} 
+            />
+        </div>
+        
       </div>
     </div>
   );

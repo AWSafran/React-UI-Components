@@ -1,0 +1,25 @@
+.clearButton, .zeroButton{
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+}
+
+div{
+    height: 80px;
+    text-align: center;
+    /* border-top: 2px solid gray;
+    border-left: 2px solid gray; */
+}
+
+.numberButton{
+    width: 32.65%;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+}
+
+.operatorButton{
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    width: 100%
+}
