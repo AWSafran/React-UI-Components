@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
+import OperatorButton from './components/ButtonComponents/OperatorButton';
 
 const numbers = [
   {text: 7, buttonStyle: "numberButton"},
@@ -17,10 +19,42 @@ const numbers = [
 const App = () => {
   return (
     <div>
-      <div className="numbers">
-        {numbers.map(number => (
-          <NumberButton number={number} />
-        ))}
+      <div className="whiteButtons">
+        <ActionButton 
+          className = {"clearButton"}
+          text = {"clear"} 
+        />
+        <div className="numbers">
+          {numbers.map(number => (
+            <NumberButton number={number} />
+          ))}
+        </div>
+        <ActionButton 
+          className = {"zeroButton"}
+          text = {"0"} 
+        />
+      </div>
+      <div className = "redButtons">
+          <OperatorButton
+            buttonStyle = {"operatorButton"}
+            text = {"/"} 
+          />
+          <OperatorButton
+            buttonStyle = {"operatorButton"}
+            text = {"*"} 
+          />
+          <OperatorButton
+            buttonStyle = {"operatorButton"}
+            text = {"-"} 
+          />
+          <OperatorButton
+            buttonStyle = {"operatorButton"}
+            text = {"+"} 
+          />
+          <OperatorButton
+            buttonStyle = {"operatorButton"}
+            text = {"="} 
+          />
       </div>
     </div>
   );
