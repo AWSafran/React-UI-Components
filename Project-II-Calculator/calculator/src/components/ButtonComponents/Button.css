@@ -5,6 +5,7 @@
     border-left: 2px solid gray;
     font-size: 52px;
     padding-top: 10px;
+    font-weight: lighter;
 }
 
 div{
@@ -30,4 +31,8 @@ div{
     padding-top: 10px;
     background: darkred;
     color: white;
+}
+
+.zeroButton, .numberButton {
+    font-weight: bold;
 }
