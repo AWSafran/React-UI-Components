@@ -1,0 +1,8 @@
+.display{
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: right;
+    height: 80px;
+    font-size: 72px;
+}

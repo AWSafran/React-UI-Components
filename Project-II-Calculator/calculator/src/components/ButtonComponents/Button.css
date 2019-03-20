@@ -1,0 +1,38 @@
+.clearButton, .zeroButton{
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    font-size: 52px;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+div{
+    height: 80px;
+    text-align: center;
+    /* border-top: 2px solid gray;
+    border-left: 2px solid gray; */
+}
+
+.numberButton{
+    width: 33.333333333%;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    font-size: 52px;
+    padding-top: 10px;
+}
+
+.operatorButton{
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    width: 100%;
+    font-size: 52px;
+    padding-top: 10px;
+    background: darkred;
+    color: white;
+}
+
+.zeroButton, .numberButton {
+    font-weight: bold;
+}
